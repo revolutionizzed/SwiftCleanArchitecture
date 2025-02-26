@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" data-name="Icons" xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <line x1="51.442" y1="59.875" x2="76.558" y2="59.875" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <polyline points="35.558 68.125 29.75 68.125 29.75 59.875 35.558 59.875" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <line x1="76.558" y1="68.125" x2="51.442" y2="68.125" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <polyline points="92.442 59.875 98.25 59.875 98.25 68.125 92.442 68.125" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <rect x="35.558" y="49.375" width="6.942" height="29.25" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <rect x="42.5" y="44.12" width="8.942" height="39.761" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <rect x="85.5" y="49.375" width="6.942" height="29.25" transform="translate(177.942 128) rotate(-180)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <rect x="76.558" y="44.12" width="8.942" height="39.761" transform="translate(162.058 128) rotate(-180)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+</svg>
