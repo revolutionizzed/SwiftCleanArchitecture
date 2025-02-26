@@ -39,21 +39,21 @@
 		164341CD2D692D5B00BB1C16 /* Exceptions for "Presentation" folder in "SportStorageApp" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Assets.xcassets,
 				Common/Extensions/DateExtension.swift,
 				Common/Extensions/TimeIntervalExtension.swift,
 				Common/Views/PrimaryButton.swift,
-				ContentView.swift,
 				CreateSportActivity/CreateSportActivityPresenter.swift,
 				CreateSportActivity/CreateSportActivityView.swift,
-				"Launch Screen.storyboard",
 				ListSportAcitivity/ListSportActivityPresenter.swift,
 				ListSportAcitivity/ListSportActivityView.swift,
 				ListSportAcitivity/SportActivityCellView.swift,
+				Main/Assets.xcassets,
+				Main/ContentView.swift,
+				"Main/Launch Screen.storyboard",
+				Main/Router.swift,
+				Main/RouterView.swift,
+				Main/SportStorageAppApp.swift,
 				"Preview Content/Preview Assets.xcassets",
-				Router.swift,
-				RouterView.swift,
-				SportStorageAppApp.swift,
 				Strings/Localizable.xcstrings,
 				Strings/Strings.swift,
 			);
@@ -468,12 +468,14 @@
 				DEVELOPMENT_TEAM = 83AR4WXLA6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sport Activity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -499,12 +501,14 @@
 				DEVELOPMENT_TEAM = 83AR4WXLA6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sport Activity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
