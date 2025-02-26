@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		165EBB092D6D1D7600D4186B /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 165EBB082D6D1D7600D4186B /* FirebaseCore */; };
+		165EBB0B2D6D1D7600D4186B /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 165EBB0A2D6D1D7600D4186B /* FirebaseDatabase */; };
+		165EBB132D6D323000D4186B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 165EBB122D6D323000D4186B /* FirebaseAuth */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1643418B2D692BDF00BB1C16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1643416D2D692BDC00BB1C16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 164341742D692BDC00BB1C16;
+			remoteInfo = SportStorageApp;
+		};
+		164341952D692BDF00BB1C16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1643416D2D692BDC00BB1C16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 164341742D692BDC00BB1C16;
+			remoteInfo = SportStorageApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		164341752D692BDC00BB1C16 /* SportStorageApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportStorageApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1643418A2D692BDF00BB1C16 /* SportStorageAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportStorageAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		164341942D692BDF00BB1C16 /* SportStorageAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportStorageAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		164341CD2D692D5B00BB1C16 /* Exceptions for "Presentation" folder in "SportStorageApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+				Common/Extensions/DateExtension.swift,
+				Common/Extensions/TimeIntervalExtension.swift,
+				Common/Views/PrimaryButton.swift,
+				ContentView.swift,
+				CreateSportActivity/CreateSportActivityPresenter.swift,
+				CreateSportActivity/CreateSportActivityView.swift,
+				ListSportAcitivity/ListSportActivityPresenter.swift,
+				ListSportAcitivity/ListSportActivityView.swift,
+				ListSportAcitivity/SportActivityCellView.swift,
+				"Preview Content/Preview Assets.xcassets",
+				Router.swift,
+				RouterView.swift,
+				SportStorageAppApp.swift,
+				Strings/Localizable.xcstrings,
+				Strings/Strings.swift,
+			);
+			target = 164341742D692BDC00BB1C16 /* SportStorageApp */;
+		};
+		164341D92D69362C00BB1C16 /* Exceptions for "Tests" folder in "SportStorageApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Mocks/DatabaseMock.swift,
+			);
+			target = 164341742D692BDC00BB1C16 /* SportStorageApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1643418D2D692BDF00BB1C16 /* Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				164341D92D69362C00BB1C16 /* Exceptions for "Tests" folder in "SportStorageApp" target */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		164341972D692BDF00BB1C16 /* UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		164341C02D692D4300BB1C16 /* Application */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Application;
+			sourceTree = "<group>";
+		};
+		164341C62D692D4800BB1C16 /* Frameworks */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		164341CC2D692D5100BB1C16 /* Presentation */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				164341CD2D692D5B00BB1C16 /* Exceptions for "Presentation" folder in "SportStorageApp" target */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		164341722D692BDC00BB1C16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				165EBB0B2D6D1D7600D4186B /* FirebaseDatabase in Frameworks */,
+				165EBB132D6D323000D4186B /* FirebaseAuth in Frameworks */,
+				165EBB092D6D1D7600D4186B /* FirebaseCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		164341872D692BDF00BB1C16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		164341912D692BDF00BB1C16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1643416C2D692BDC00BB1C16 = {
+			isa = PBXGroup;
+			children = (
+				164341C02D692D4300BB1C16 /* Application */,
+				164341C62D692D4800BB1C16 /* Frameworks */,
+				164341CC2D692D5100BB1C16 /* Presentation */,
+				1643418D2D692BDF00BB1C16 /* Tests */,
+				164341972D692BDF00BB1C16 /* UITests */,
+				164341762D692BDC00BB1C16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		164341762D692BDC00BB1C16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				164341752D692BDC00BB1C16 /* SportStorageApp.app */,
+				1643418A2D692BDF00BB1C16 /* SportStorageAppTests.xctest */,
+				164341942D692BDF00BB1C16 /* SportStorageAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		164341742D692BDC00BB1C16 /* SportStorageApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1643419E2D692BDF00BB1C16 /* Build configuration list for PBXNativeTarget "SportStorageApp" */;
+			buildPhases = (
+				164341712D692BDC00BB1C16 /* Sources */,
+				164341722D692BDC00BB1C16 /* Frameworks */,
+				164341732D692BDC00BB1C16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				164341C02D692D4300BB1C16 /* Application */,
+				164341C62D692D4800BB1C16 /* Frameworks */,
+			);
+			name = SportStorageApp;
+			packageProductDependencies = (
+				165EBB082D6D1D7600D4186B /* FirebaseCore */,
+				165EBB0A2D6D1D7600D4186B /* FirebaseDatabase */,
+				165EBB122D6D323000D4186B /* FirebaseAuth */,
+			);
+			productName = SportStorageApp;
+			productReference = 164341752D692BDC00BB1C16 /* SportStorageApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		164341892D692BDF00BB1C16 /* SportStorageAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 164341A12D692BDF00BB1C16 /* Build configuration list for PBXNativeTarget "SportStorageAppTests" */;
+			buildPhases = (
+				164341862D692BDF00BB1C16 /* Sources */,
+				164341872D692BDF00BB1C16 /* Frameworks */,
+				164341882D692BDF00BB1C16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1643418C2D692BDF00BB1C16 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1643418D2D692BDF00BB1C16 /* Tests */,
+			);
+			name = SportStorageAppTests;
+			packageProductDependencies = (
+			);
+			productName = SportStorageAppTests;
+			productReference = 1643418A2D692BDF00BB1C16 /* SportStorageAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		164341932D692BDF00BB1C16 /* SportStorageAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 164341A42D692BDF00BB1C16 /* Build configuration list for PBXNativeTarget "SportStorageAppUITests" */;
+			buildPhases = (
+				164341902D692BDF00BB1C16 /* Sources */,
+				164341912D692BDF00BB1C16 /* Frameworks */,
+				164341922D692BDF00BB1C16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				164341962D692BDF00BB1C16 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				164341972D692BDF00BB1C16 /* UITests */,
+			);
+			name = SportStorageAppUITests;
+			packageProductDependencies = (
+			);
+			productName = SportStorageAppUITests;
+			productReference = 164341942D692BDF00BB1C16 /* SportStorageAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1643416D2D692BDC00BB1C16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					164341742D692BDC00BB1C16 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					164341892D692BDF00BB1C16 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 164341742D692BDC00BB1C16;
+					};
+					164341932D692BDF00BB1C16 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 164341742D692BDC00BB1C16;
+					};
+				};
+			};
+			buildConfigurationList = 164341702D692BDC00BB1C16 /* Build configuration list for PBXProject "SportStorageApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1643416C2D692BDC00BB1C16;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				165EBB072D6D1D7600D4186B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 164341762D692BDC00BB1C16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				164341742D692BDC00BB1C16 /* SportStorageApp */,
+				164341892D692BDF00BB1C16 /* SportStorageAppTests */,
+				164341932D692BDF00BB1C16 /* SportStorageAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		164341732D692BDC00BB1C16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		164341882D692BDF00BB1C16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		164341922D692BDF00BB1C16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		164341712D692BDC00BB1C16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		164341862D692BDF00BB1C16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		164341902D692BDF00BB1C16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1643418C2D692BDF00BB1C16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 164341742D692BDC00BB1C16 /* SportStorageApp */;
+			targetProxy = 1643418B2D692BDF00BB1C16 /* PBXContainerItemProxy */;
+		};
+		164341962D692BDF00BB1C16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 164341742D692BDC00BB1C16 /* SportStorageApp */;
+			targetProxy = 164341952D692BDF00BB1C16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1643419C2D692BDF00BB1C16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1643419D2D692BDF00BB1C16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1643419F2D692BDF00BB1C16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Presentation/Preview Content\"";
+				DEVELOPMENT_TEAM = 83AR4WXLA6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = pro.bocko.etnetera.sport.app.SportStorageApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		164341A02D692BDF00BB1C16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Presentation/Preview Content\"";
+				DEVELOPMENT_TEAM = 83AR4WXLA6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = pro.bocko.etnetera.sport.app.SportStorageApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		164341A22D692BDF00BB1C16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 83AR4WXLA6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pro.bocko.etnetera.sport.app.SportStorageAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SportStorageApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SportStorageApp";
+			};
+			name = Debug;
+		};
+		164341A32D692BDF00BB1C16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 83AR4WXLA6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pro.bocko.etnetera.sport.app.SportStorageAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SportStorageApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SportStorageApp";
+			};
+			name = Release;
+		};
+		164341A52D692BDF00BB1C16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 83AR4WXLA6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pro.bocko.etnetera.sport.app.SportStorageAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SportStorageApp;
+			};
+			name = Debug;
+		};
+		164341A62D692BDF00BB1C16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 83AR4WXLA6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pro.bocko.etnetera.sport.app.SportStorageAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SportStorageApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		164341702D692BDC00BB1C16 /* Build configuration list for PBXProject "SportStorageApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1643419C2D692BDF00BB1C16 /* Debug */,
+				1643419D2D692BDF00BB1C16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1643419E2D692BDF00BB1C16 /* Build configuration list for PBXNativeTarget "SportStorageApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1643419F2D692BDF00BB1C16 /* Debug */,
+				164341A02D692BDF00BB1C16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		164341A12D692BDF00BB1C16 /* Build configuration list for PBXNativeTarget "SportStorageAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				164341A22D692BDF00BB1C16 /* Debug */,
+				164341A32D692BDF00BB1C16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		164341A42D692BDF00BB1C16 /* Build configuration list for PBXNativeTarget "SportStorageAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				164341A52D692BDF00BB1C16 /* Debug */,
+				164341A62D692BDF00BB1C16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		165EBB072D6D1D7600D4186B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		165EBB082D6D1D7600D4186B /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 165EBB072D6D1D7600D4186B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		165EBB0A2D6D1D7600D4186B /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 165EBB072D6D1D7600D4186B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		165EBB122D6D323000D4186B /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 165EBB072D6D1D7600D4186B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1643416D2D692BDC00BB1C16 /* Project object */;
+}
