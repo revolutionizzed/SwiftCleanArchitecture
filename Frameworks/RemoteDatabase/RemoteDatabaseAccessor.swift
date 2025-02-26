@@ -41,7 +41,6 @@ class RemoteDatabaseAccessor: DatabaseStorable {
             
             if let value = snapshot.value as? [String: [String: Any]] {
                 let activities = try value.compactMap { key, value -> SportActivity? in
-                    print(key)
                     return try JSONDecoder().decode(SportActivity.self, from: JSONSerialization.data(withJSONObject: value))
                 }
                 return activities

@@ -68,11 +68,9 @@ struct LocalDatabaseAccessor: DatabaseStorable {
 
     func convertStringToManagedObjectID(_ objectIDString: String, context: NSManagedObjectContext) -> NSManagedObjectID? {
         guard let url = URL(string: objectIDString) else {
-            print("Invalid URL string")
             return nil
         }
         guard let persistentStoreCoordinator = context.persistentStoreCoordinator else {
-            print("No persistent store coordinator found")
             return nil
         }
         return persistentStoreCoordinator.managedObjectID(forURIRepresentation: url)
