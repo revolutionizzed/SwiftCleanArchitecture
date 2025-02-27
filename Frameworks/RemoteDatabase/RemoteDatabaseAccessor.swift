@@ -8,6 +8,7 @@
 import UIKit
 import FirebaseCore
 import FirebaseDatabase
+import SwiftCleanApplication
 
 class RemoteDatabaseAccessor: DatabaseStorable {
     let database: DatabaseReference

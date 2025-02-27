@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftCleanApplication
 
 struct ContentView: View {
     @EnvironmentObject private var domain: DomainProxy

@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftCleanApplication
 
 struct RouterView<Content: View>: View {
     @StateObject var router: Router = Router()

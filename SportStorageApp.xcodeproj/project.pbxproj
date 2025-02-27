@@ -10,6 +10,7 @@
 		165EBB092D6D1D7600D4186B /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 165EBB082D6D1D7600D4186B /* FirebaseCore */; };
 		165EBB0B2D6D1D7600D4186B /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 165EBB0A2D6D1D7600D4186B /* FirebaseDatabase */; };
 		165EBB132D6D323000D4186B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 165EBB122D6D323000D4186B /* FirebaseAuth */; };
+		16DA37A22D7060C0004A1546 /* SwiftCleanApplication in Frameworks */ = {isa = PBXBuildFile; productRef = 16DA37A12D7060C0004A1546 /* SwiftCleanApplication */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,24 +60,9 @@
 			);
 			target = 164341742D692BDC00BB1C16 /* SportStorageApp */;
 		};
-		164341D92D69362C00BB1C16 /* Exceptions for "Tests" folder in "SportStorageApp" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Mocks/DatabaseMock.swift,
-			);
-			target = 164341742D692BDC00BB1C16 /* SportStorageApp */;
-		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		1643418D2D692BDF00BB1C16 /* Tests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				164341D92D69362C00BB1C16 /* Exceptions for "Tests" folder in "SportStorageApp" target */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
 		164341972D692BDF00BB1C16 /* UITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = UITests;
@@ -108,6 +94,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				165EBB0B2D6D1D7600D4186B /* FirebaseDatabase in Frameworks */,
+				16DA37A22D7060C0004A1546 /* SwiftCleanApplication in Frameworks */,
 				165EBB132D6D323000D4186B /* FirebaseAuth in Frameworks */,
 				165EBB092D6D1D7600D4186B /* FirebaseCore in Frameworks */,
 			);
@@ -136,7 +123,6 @@
 				164341C02D692D4300BB1C16 /* Application */,
 				164341C62D692D4800BB1C16 /* Frameworks */,
 				164341CC2D692D5100BB1C16 /* Presentation */,
-				1643418D2D692BDF00BB1C16 /* Tests */,
 				164341972D692BDF00BB1C16 /* UITests */,
 				164341762D692BDC00BB1C16 /* Products */,
 			);
@@ -176,6 +162,7 @@
 				165EBB082D6D1D7600D4186B /* FirebaseCore */,
 				165EBB0A2D6D1D7600D4186B /* FirebaseDatabase */,
 				165EBB122D6D323000D4186B /* FirebaseAuth */,
+				16DA37A12D7060C0004A1546 /* SwiftCleanApplication */,
 			);
 			productName = SportStorageApp;
 			productReference = 164341752D692BDC00BB1C16 /* SportStorageApp.app */;
@@ -193,9 +180,6 @@
 			);
 			dependencies = (
 				1643418C2D692BDF00BB1C16 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				1643418D2D692BDF00BB1C16 /* Tests */,
 			);
 			name = SportStorageAppTests;
 			packageProductDependencies = (
@@ -662,6 +646,10 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 165EBB072D6D1D7600D4186B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAuth;
+		};
+		16DA37A12D7060C0004A1546 /* SwiftCleanApplication */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftCleanApplication;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

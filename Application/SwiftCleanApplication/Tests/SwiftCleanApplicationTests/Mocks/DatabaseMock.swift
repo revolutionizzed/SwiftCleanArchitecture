@@ -5,7 +5,7 @@
 //  Created by David Bocko on 21.02.2025.
 //
 
-import SportStorageApp
+import SwiftCleanApplication
 
 public class DatabaseMock: DatabaseStorable {
     var storedActivity: SportActivity?

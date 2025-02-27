@@ -5,6 +5,7 @@
 //  Created by David Bocko on 23.02.2025.
 //
 import SwiftUI
+import SwiftCleanApplication
 
 @MainActor
 class Router: ObservableObject {

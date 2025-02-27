@@ -11,7 +11,7 @@ public class DomainProxy: ObservableObject
 {
     public typealias StatePublisher = CurrentValueSubject<ApplicationState, Never>
     
-    let statePublisher = StatePublisher(ApplicationState(sportActivities: []))
+    public let statePublisher = StatePublisher(ApplicationState(sportActivities: []))
     
     let localStorage: DatabaseStorable
     let remoteStorage: DatabaseStorable

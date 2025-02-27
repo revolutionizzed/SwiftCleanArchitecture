@@ -6,7 +6,7 @@
 
 import Testing
 import Foundation
-@testable import SportStorageApp
+@testable import SwiftCleanApplication
 
 struct SportStorageAppTests {
 

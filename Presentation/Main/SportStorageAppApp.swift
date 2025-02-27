@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftCleanApplication
 
 @main
 struct SportStorageAppApp: App {

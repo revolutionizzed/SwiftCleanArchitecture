@@ -7,6 +7,7 @@
 
 import Combine
 import Foundation
+import SwiftCleanApplication
 
 class ListSportActivityPresenter {
     class ViewModel: ObservableObject {

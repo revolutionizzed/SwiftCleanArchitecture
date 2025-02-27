@@ -1,6 +1,5 @@
 //
 //  DeleteSportActivityUseCase.swift
-//  SportStorageApp
 //
 //  Created by David Bocko on 25.02.2025.
 //

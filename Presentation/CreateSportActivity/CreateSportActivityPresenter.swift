@@ -8,6 +8,7 @@
 import Combine
 import Foundation
 import MapKit
+import SwiftCleanApplication
 
 class CreateSportAcitivityPresenter {
     class ViewModel: ObservableObject {

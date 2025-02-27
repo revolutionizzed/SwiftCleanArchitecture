@@ -6,6 +6,7 @@
 //
 
 import CoreData
+import SwiftCleanApplication
 
 struct LocalDatabaseAccessor: DatabaseStorable {
     let container: NSPersistentContainer
