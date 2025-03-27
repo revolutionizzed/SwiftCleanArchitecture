@@ -14,5 +14,6 @@ It is layered as follows:
   - UI usually have Presenter that is responsible for "preprocess" data from Application into UI. 
     - Presenter formats data, connects to statePresenter and fires requests to Application layer.
 - Tests layer - holds Unit tests and Mocks for Frameworks. It ususally tests UseCases.
-- UITests - covers UITests (Integration tests)
+- UITests - covers UITests (Integration tests).
+
 
